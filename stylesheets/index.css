@@ -1,0 +1,45 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+body{
+  text-align: center;
+  font-family: "Verdana";
+  background: gray;
+  color: white;
+}
+
+div{
+  margin: 0;
+}
+
+h1{
+  padding-top: 20px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#grid{
+  padding-top: 50px;
+  display: table;
+  margin: 0 auto;
+}
+
+.row{
+  height: 13px;
+}
+
+.cell{
+  float: left;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 13px;
+  background-color: #e5e5e5;
+}
+
+.alive{
+  background: #6666ff;
+}
